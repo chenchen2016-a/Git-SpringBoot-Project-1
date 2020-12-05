@@ -1,2 +1,4 @@
 chen\springboot\helloworld\controller\HelloController.class
 chen\springboot\helloworld\Demo.class
+chen\springboot\helloworld\config\AccountConfig.class
+chen\springboot\helloworld\config\FoodConfig.class
