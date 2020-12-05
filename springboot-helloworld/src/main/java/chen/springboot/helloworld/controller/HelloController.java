@@ -17,19 +17,16 @@ public class HelloController {
     private FoodConfig foodConfig;
 
     @RequestMapping("/hello")
-    @ResponseBody
     public String hello() {
         return "Hello SpringBoot !!";
     }
 
     @RequestMapping("/food")
-    @ResponseBody
     public FoodConfig food() {
         return foodConfig;
     }
 
     @RequestMapping("/account")
-    @ResponseBody
     public AccountConfig account() {
         return accountConfig;
     }
