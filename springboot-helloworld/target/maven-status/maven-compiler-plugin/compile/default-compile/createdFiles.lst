@@ -1,4 +1,7 @@
 chen\springboot\helloworld\controller\HelloController.class
 chen\springboot\helloworld\Demo.class
 chen\springboot\helloworld\config\AccountConfig.class
+META-INF\spring-configuration-metadata.json
+chen\springboot\helloworld\domain\Account.class
+chen\springboot\helloworld\util\JasyptUtil.class
 chen\springboot\helloworld\config\FoodConfig.class

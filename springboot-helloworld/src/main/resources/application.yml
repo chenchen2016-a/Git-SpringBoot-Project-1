@@ -1,0 +1,27 @@
+server:
+#  port: 8090
+  tocat:
+    uri-encoding: UTF-8
+
+food:
+  name: \u9E21\u6252
+  meat: \u5B5C\u7136\u5473
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev
+server:
+  port: 8010
+jasypt:
+  encryptor:
+    password: 1234567!#@
+rootAccount:
+  username: ENC(7C2oMmIkKrnEuapMXWTSApkwzt6eVl8+)
+  password: ENC(cnlHHk+f8hiZFgf8g2UNgu2w6+RoOzZS)
+---
+spring:
+  profiles: prod
+server:
+  port: 8020

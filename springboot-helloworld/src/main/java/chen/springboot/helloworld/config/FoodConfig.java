@@ -1,25 +1,13 @@
 package chen.springboot.helloworld.config;
 
+
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("food")
+@Getter@Setter
+@ConfigurationProperties(prefix = "food")
 public class FoodConfig {
     private String name;
     private String meat;
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getMeat() {
-        return meat;
-    }
-
-    public void setMeat(String meat) {
-        this.meat = meat;
-    }
 }
